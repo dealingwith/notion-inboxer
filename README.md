@@ -13,10 +13,11 @@ This app only works with databases with the built-in Notion column "Status". It 
 Once running:
 
 1. Choose your DB
-1. Update statuses on pages (or delete ["archive"] them)
+1. Update statuses on pages (or [delete](https://developers.notion.com/reference/archive-a-page) them)
 
 ### TODO
 
 - [ ] "Move pages". This is technically impossible via the API, so I plan to "mark" pages for moving for easy bulk moving in the Notion UI.
 - [ ] Add configurability to both filter by and edit other page properties.
 - [ ] Only give the option to choose DBs that will work with the script.
+- [ ] Add some CLI QoL things -- use TTY better or use another CLI formatting/input lib
